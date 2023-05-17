@@ -86,7 +86,7 @@
     - Alpha and beta group analysis: relevant files can be found in the [Stat folder](https://github.com/clayton-lab/BugSeq-er/tree/main/Stat)
         * Copy 'stat.slurm' to the 'stat' subdirectory
             * Edit the path in lined 8 & 9 (.../stat/script_output) and 15 (.../qiime2)
-        * Ensure '--m-metadata-column' matches the names of the two relevant metadata columns which you are analyzing (column one, lines 44, 56, 68, and 81; column two, 50, 62, 74, and 87)
+            * Ensure '--m-metadata-column' matches the names of the two relevant metadata columns which you are analyzing (column one, lines 44, 56, 68, and 81; column two, 50, 62, 74, and 87)
         * Run 'sbatch stat.slurm' in the 'stat' subdirectory
     - Differential abundance (ANCOM) analysis: relevant files can be found in the [ANCOM folder](https://github.com/clayton-lab/BugSeq-er/tree/main/ANCOM)
         * Copy 'ancom.sh' to the 'ancom' subdirectory

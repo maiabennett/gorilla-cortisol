@@ -1,1 +1,1 @@
-# gorilla_cortisol_BugSeq-er
+# Analysis of gorilla microbiome and cortisol levels using BugSeq-er

@@ -10,7 +10,7 @@
 ### Regression model
 ### PERMANOVA analysis
 
-## Installation and analysis
+## Installation and implementation
 ### BugSeq-er
 The BugSeq-er pipeline was developed to run using the HOLLAND COMPUTING CENTER (HHC) [Swan server](https://swan-ood.unl.edu/pun/sys/dashboard). Detailed steps for the pipeline's use in this analysis can be found [here](https://github.com/maiabennett/gorilla_cortisol_BugSeq-er/blob/main/steps.md). Currently, the only step which must be run locally is Step 4, which creates relative abundance plots (heatmap and barplot) using R and specific packages that are not currently supported by HCC.
 ### Regression

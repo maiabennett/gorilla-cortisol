@@ -91,5 +91,5 @@
     - Differential abundance (ANCOM) analysis: relevant files can be found in the [ANCOM folder](https://github.com/clayton-lab/BugSeq-er/tree/main/ANCOM)
         * Copy 'ancom.sh' to the 'ancom' subdirectory
             * Edit the path in line 5 (.../qiime2/ancom)
-        * Ensure '--m-metadata-column' matches the names of relevant metadata columns (lines 21, 39, 57, 74, 91, and 108)
+            * Ensure '--m-metadata-column' matches the names of relevant metadata columns (lines 21, 39, 57, 74, 91, and 108)
         * Run 'bash ancom.sh' from the 'ancom' subdirectory

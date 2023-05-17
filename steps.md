@@ -1,11 +1,8 @@
-1. Get raw reads sequnces (fastq): reference files can be found in the [Raw Reads folder](https://github.com/clayton-lab/BugSeq-er/tree/main/Raw%20Reads)
-    - Create a directory for this analysis with a project-specific title (e.g., 'PhilZoo_date'). 
-    - Copy get_fastq.sh to the project directory to retrieve sequnces from NCBI Sequence Read Archive (SRA)
-        * Before running the script, go to the SRA Run Selector (https://www.ncbi.nlm.nih.gov/Traces/study/)
-        * Insert the Sequence Read Archive (SRA) BioProject ID as an accession
-        * Select the samples you want then download the accession list and metadata for the selected samples
-    - Check the accession list file and name it 'SRR_Acc_List.txt'; each line should have one accession number
-    - Run 'bash get_fastq.sh' in the project directory
+1. Get raw reads sequnces (fastq): reference files can be found in the [Raw Reads folder](https://swan-ood.unl.edu/pun/sys/dashboard/files/fs//common/claytonlab/maibennett/gorilla_cortisol/raw_reads)
+    - Create a directory for this analysis with a project-specific title (e.g., 'gorilla_cortisol'). 
+    - Copy linked raw_reads folder or reference current location in HCC (claytonlab/maibennett/gorilla_cortisol/raw_reads)
+        * The sequence files are named following the schema 'sampleIDMapping_S###_L001_R1_001.fastq.gz', where sampleIDMapping is a column in metadata.txt which allows mapping of cortisol metadata to microbiome data
+    - Copy the first column of metadata.tsv (excluding the column name) into a file named 'acc_list.txt'; each line should have one accession number
 
 2. Pre-process the data using FastQC and MultiQC: reference files can be found in the [Pre-process folder](https://github.com/clayton-lab/BugSeq-er/tree/main/Pre-process)
     - Create project subdirectory 'qc' within the project directory, then create a subdirectory of 'qc' named 'script_output'

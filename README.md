@@ -1,4 +1,4 @@
-# Analysis of gorilla microbiome and cortisol levels using BugSeq-er
+# An analysis of gorilla microbiome and cortisol levels using BugSeq-er.
 ## The main goal of this project is to robustly investigate relationships between gorilla microbiome composition and cortisol measurements using 16S fecal microbiome sequencing data and fecal cortisol measurements. This will be accomplished by three methods: 
 - Integration of cortisol data into the previously developed [BugSeq-er pipeline](https://github.com/clayton-lab/BugSeq-er) for 16S data analysis.
 - Development of a regression model for cortisol and alpha diversity levels determined using BugSeq-er.

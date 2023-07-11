@@ -1,0 +1,16 @@
+sample-id	forward-absolute-filepath	reverse-absolute-filepath
+22_S303_L001	/common/claytonlab/maibennett/gorilla_cortisol/raw_reads/22_S303_L001_R1_001.fastq.gz	/common/claytonlab/maibennett/gorilla_cortisol/raw_reads/22_S303_L001_R2_001.fastq.gz
+23_S304_L001	/common/claytonlab/maibennett/gorilla_cortisol/raw_reads/23_S304_L001_R1_001.fastq.gz	/common/claytonlab/maibennett/gorilla_cortisol/raw_reads/23_S304_L001_R2_001.fastq.gz
+24_S305_L001	/common/claytonlab/maibennett/gorilla_cortisol/raw_reads/24_S305_L001_R1_001.fastq.gz	/common/claytonlab/maibennett/gorilla_cortisol/raw_reads/24_S305_L001_R2_001.fastq.gz
+25_S306_L001	/common/claytonlab/maibennett/gorilla_cortisol/raw_reads/25_S306_L001_R1_001.fastq.gz	/common/claytonlab/maibennett/gorilla_cortisol/raw_reads/25_S306_L001_R2_001.fastq.gz
+26_S307_L001	/common/claytonlab/maibennett/gorilla_cortisol/raw_reads/26_S307_L001_R1_001.fastq.gz	/common/claytonlab/maibennett/gorilla_cortisol/raw_reads/26_S307_L001_R2_001.fastq.gz
+27_S308_L001	/common/claytonlab/maibennett/gorilla_cortisol/raw_reads/27_S308_L001_R1_001.fastq.gz	/common/claytonlab/maibennett/gorilla_cortisol/raw_reads/27_S308_L001_R2_001.fastq.gz
+28_S309_L001	/common/claytonlab/maibennett/gorilla_cortisol/raw_reads/28_S309_L001_R1_001.fastq.gz	/common/claytonlab/maibennett/gorilla_cortisol/raw_reads/28_S309_L001_R2_001.fastq.gz
+29_S310_L001	/common/claytonlab/maibennett/gorilla_cortisol/raw_reads/29_S310_L001_R1_001.fastq.gz	/common/claytonlab/maibennett/gorilla_cortisol/raw_reads/29_S310_L001_R2_001.fastq.gz
+156_S172_L001	/common/claytonlab/maibennett/gorilla_cortisol/raw_reads/156_S172_L001_R1_001.fastq.gz	/common/claytonlab/maibennett/gorilla_cortisol/raw_reads/156_S172_L001_R2_001.fastq.gz
+157_S173_L001	/common/claytonlab/maibennett/gorilla_cortisol/raw_reads/157_S173_L001_R1_001.fastq.gz	/common/claytonlab/maibennett/gorilla_cortisol/raw_reads/157_S173_L001_R2_001.fastq.gz
+158_S174_L001	/common/claytonlab/maibennett/gorilla_cortisol/raw_reads/158_S174_L001_R1_001.fastq.gz	/common/claytonlab/maibennett/gorilla_cortisol/raw_reads/158_S174_L001_R2_001.fastq.gz
+159_S175_L001	/common/claytonlab/maibennett/gorilla_cortisol/raw_reads/159_S175_L001_R1_001.fastq.gz	/common/claytonlab/maibennett/gorilla_cortisol/raw_reads/159_S175_L001_R2_001.fastq.gz
+160_S176_L001	/common/claytonlab/maibennett/gorilla_cortisol/raw_reads/160_S176_L001_R1_001.fastq.gz	/common/claytonlab/maibennett/gorilla_cortisol/raw_reads/160_S176_L001_R2_001.fastq.gz
+161_S177_L001	/common/claytonlab/maibennett/gorilla_cortisol/raw_reads/161_S177_L001_R1_001.fastq.gz	/common/claytonlab/maibennett/gorilla_cortisol/raw_reads/161_S177_L001_R2_001.fastq.gz
+162_S178_L001	/common/claytonlab/maibennett/gorilla_cortisol/raw_reads/162_S178_L001_R1_001.fastq.gz	/common/claytonlab/maibennett/gorilla_cortisol/raw_reads/162_S178_L001_R2_001.fastq.gz

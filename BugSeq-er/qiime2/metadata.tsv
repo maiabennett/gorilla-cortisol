@@ -1,0 +1,17 @@
+SampleID	SampleIDMapping	AnimalName	Institution	Sex	Age	16SDate	CortDate	CortfGCMs	CortGroup
+#q2:types	categorical	categorical	categorical	categorical	categorical	categorical	categorical	categorical	categorical
+22_S303_L001	22	Cenzoo	Columbia	M	22	2/6/2018	2/6/2018	10.63	3
+23_S304_L001	23	Cenzoo	Columbia	M	22.1	2/27/2018	2/27/2018	7.86	1
+24_S305_L001	24	Cenzoo	Columbia	M	22.1	3/17/2018	3/17/2018	12.36	3
+25_S306_L001	25	Cenzoo	Columbia	M	22.2	3/31/2018	3/31/2018	10.47	3
+26_S307_L001	26	Cenzoo	Columbia	M	22.2	4/10/2018	4/10/2018	8.64	2
+27_S308_L001	27	Cenzoo	Columbia	M	22.2	4/24/2018	4/24/2018	12.28	3
+28_S309_L001	28	Cenzoo	Columbia	M	22.3	5/8/2018	5/8/2018	9.14	2
+29_S310_L001	29	Cenzoo	Columbia	M	22.3	5/23/2018	5/23/2018	10.47	3
+156_S172_L001	156	Cenzoo	Columbia	M	22.4	6/5/2018	6/5/2018	16.55	4
+157_S173_L001	157	Cenzoo	Columbia	M	22.4	6/21/2018	6/24/2018	7.84	1
+158_S174_L001	158	Cenzoo	Columbia	M	22.4	7/5/2018	7/5/2018	17	4
+159_S175_L001	159	Cenzoo	Columbia	M	22.5	7/17/2018	7/17/2018	8.09	1
+160_S176_L001	160	Cenzoo	Columbia	M	22.5	8/7/2018	8/7/2018	7.71	1
+161_S177_L001	161	Cenzoo	Columbia	M	22.5	8/14/2018	8/14/2018	7.78	1
+162_S178_L001	162	Cenzoo	Columbia	M	22.6	8/31/2018	8/31/2018	19.76	4

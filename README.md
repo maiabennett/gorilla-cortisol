@@ -1,18 +1,22 @@
 # An analysis of gorilla microbiome and cortisol levels using BugSeq-er.
 ## The main goal of this project is to robustly investigate relationships between gorilla microbiome composition and cortisol measurements using 16S fecal microbiome sequencing data and fecal cortisol measurements. This will be accomplished by three methods: 
 - Integration of cortisol data into the previously developed [BugSeq-er pipeline](https://github.com/clayton-lab/BugSeq-er) for 16S data analysis.
-- Development of a regression model for cortisol and alpha diversity levels determined using BugSeq-er.
+- Threshold analysis (TITAN2) of cortisol and taxa abundance determined using BugSeq-er.
+- Regression analysis of cortisol and alpha diversity levels determined using BugSeq-er.
 - PERMANOVA analysis of cortisol and beta diversity levels determined using BugSeq-er.
 
 ## General overview
 ### BugSeq-er pipeline
 ![pipeline-overview](https://github.com/zalsafwani/thesis/blob/621d1302af242417919a21142b0ac8aa846ecc04/Microbiome%20Analysis%20Pipeline.png)
+### TITAN2
 ### Regression model
 ### PERMANOVA analysis
 
 ## Installation and implementation
 ### BugSeq-er
-The BugSeq-er pipeline was developed to run using the HOLLAND COMPUTING CENTER (HHC) [Swan server](https://swan-ood.unl.edu/pun/sys/dashboard). Detailed steps for the pipeline's use in this analysis can be found [here](https://github.com/maiabennett/gorilla_cortisol_BugSeq-er/blob/main/steps.md). Currently, the only step which must be run locally is Step 4, which creates relative abundance plots (heatmap and barplot) using R and specific packages that are not currently supported by HCC.
+The BugSeq-er pipeline was developed to run using the HOLLAND COMPUTING CENTER (HHC) [Swan server](https://swan-ood.unl.edu/pun/sys/dashboard). Detailed steps for the pipeline's use in this analysis can be found [here](https://github.com/maiabennett/gorilla_cortisol/blob/main/steps.md). Currently, the only step which must be run locally is Step 4, which creates relative abundance plots (heatmap and barplot) using R and specific packages that are not currently supported by HCC.
+### TITAN2
+The TITAN2 package was developed to run in R. A general overview of the package can be found [here](https://rdrr.io/cran/TITAN2/f/vignettes/titan2-intro.Rmd). TITAN2 analysis for this project was conducted using [this file](https://github.com/maiabennett/gorilla_cortisol/blob/main/cortisol_titan.R).
 ### Regression
 ### PERMANOVA
 

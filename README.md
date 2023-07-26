@@ -1,5 +1,5 @@
 # An analysis of gorilla microbiome and cortisol levels using BugSeq-er.
-## The main goal of this project is to robustly investigate relationships between gorilla microbiome composition and cortisol measurements using 16S fecal microbiome sequencing data and fecal cortisol measurements. This will be accomplished by three methods: 
+## The main goal of this project is to robustly investigate relationships between gorilla microbiome composition and cortisol measurements using 16S fecal microbiome sequencing data and fecal cortisol measurements. This will be accomplished by four methods: 
 - Integration of cortisol data into the previously developed [BugSeq-er pipeline](https://github.com/clayton-lab/BugSeq-er) for 16S data analysis.
 - Threshold analysis (TITAN2) of cortisol and taxa abundance determined using BugSeq-er.
 - Regression analysis of cortisol and alpha diversity levels determined using BugSeq-er.
@@ -21,6 +21,7 @@ The BugSeq-er pipeline was developed to run using the HOLLAND COMPUTING CENTER (
 The TITAN2 package was developed to run in R. A general overview of the package can be found [here](https://rdrr.io/cran/TITAN2/f/vignettes/titan2-intro.Rmd). TITAN2 analysis for this project was conducted using [this file](https://github.com/maiabennett/gorilla_cortisol/blob/main/TITAN2/cortisol_titan.R).
 ### Regression
 ### PERMANOVA
+The vegan package and all dependent functions were developed to run in R. A general overview of the package can be found [here](https://cran.r-project.org/web/packages/vegan/vegan.pdf). PERMANOVA analysis of beta diversity for this projecy was conducted using [this file](https://github.com/maiabennett/gorilla_cortisol/blob/main/PERMANOVA/cortisol_permanova.R).
 
 ## License
 This repo uses the GNU General Public License v 3.0.

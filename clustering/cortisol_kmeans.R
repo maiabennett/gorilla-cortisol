@@ -1,6 +1,7 @@
 
 # Library
 library(readxl)
+library(readr)
 library(stats)
 
 # k means clustering of cortisol fGCM data, 5 groups across all animals
@@ -12,6 +13,41 @@ kmcort <-  kmeans(metadata$CortfGCMs, 5)
 metadata$CortGroup <- kmcort$cluster
 
 write_tsv(metadata, file="metadata.tsv")
+
+# k means clustering of cortisol fGCM data, 5 groupings by institution
+# Asheboro
+metadata_asheboro <- read_delim("ind-metadata/metadata-asheboro.tsv", 
+                              delim = "\t", escape_double = FALSE, 
+                              trim_ws = TRUE,
+                              col_select = c(1:9),
+                              col_types = "ccccccccd")
+
+kmcort_asheboro <-  kmeans(metadata_asheboro$CortfGCMs, 5)
+metadata_asheboro$CortGroup <- kmcort_asheboro$cluster
+write_tsv(metadata_asheboro, file="ind-metadata-clustered/metadata-asheboro.tsv")
+
+# Columbia
+metadata_columbia <- read_delim("ind-metadata/metadata-columbia.tsv", 
+                                delim = "\t", escape_double = FALSE, 
+                                trim_ws = TRUE,
+                                col_select = c(1:9),
+                                col_types = "ccccccccd")
+
+kmcort_columbia <-  kmeans(metadata_columbia$CortfGCMs, 5)
+metadata_columbia$CortGroup <- kmcort_columbia$cluster
+write_tsv(metadata_columbia, file="ind-metadata-clustered/metadata-columbia.tsv")
+
+# Denver
+metadata_denver <- read_delim("ind-metadata/metadata-denver.tsv", 
+                                delim = "\t", escape_double = FALSE, 
+                                trim_ws = TRUE,
+                                col_select = c(1:9),
+                                col_types = "ccccccccd")
+
+kmcort_denver <-  kmeans(metadata_denver$CortfGCMs, 5)
+metadata_denver$CortGroup <- kmcort_denver$cluster
+write_tsv(metadata_denver, file="ind-metadata-clustered/metadata-denver.tsv")
+
 
 # k means clustering of cortisol fGCM data, 4 groups by individual; need to re-add "categorical" row due to type constraints necessary for analysis
 # Apollo

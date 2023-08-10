@@ -15,12 +15,13 @@
 ## Installation and implementation
 ### Cortisol clustering
 Prior to implementation of BugSeq-er and other analyses, cortisol (fGCM) levels were clustered for all data, per institution, and per individual. K-means clustering was conducted using [this file](https://github.com/maiabennett/gorilla_cortisol/blob/main/clustering/cortisol_kmeans.R). After clustering, the outputted CortGroups were re-assigned in ascending order within the relevant metadata file(s). 
-### BugSeq-er
+### BugSeq-er QIIME2 analysis
 The BugSeq-er pipeline was developed to run using the HOLLAND COMPUTING CENTER (HHC) [Swan server](https://swan-ood.unl.edu/pun/sys/dashboard). Detailed steps for the pipeline's use in this analysis can be found [here](https://github.com/maiabennett/gorilla_cortisol/blob/main/steps.md). Currently, the only step which must be run locally is Step 4, which creates relative abundance plots (heatmap and barplot) using R and specific packages that are not currently supported by HCC.
-### TITAN2
+### TITAN2 threshold analysis
 The TITAN2 package was developed to run in R. A general overview of the package can be found [here](https://rdrr.io/cran/TITAN2/f/vignettes/titan2-intro.Rmd). TITAN2 analysis for this project was conducted using [this file](https://github.com/maiabennett/gorilla_cortisol/blob/main/TITAN2/cortisol_titan.R).
-### Regression
-### PERMANOVA
+### Alpha diversity regression
+The stat package and all dependent functions, including linear regression function lm(), were developed to run in R. A general overview of the function can be found [here](https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/lm). Linear regression analysis for this project was conducted using [this file](https://github.com/maiabennett/gorilla_cortisol/blob/main/alpha-regression/cortisol_lm.R).
+### Beta diversity PERMANOVA
 The vegan package and all dependent functions were developed to run in R. A general overview of the package can be found [here](https://cran.r-project.org/web/packages/vegan/vegan.pdf). PERMANOVA analysis of beta diversity for this projecy was conducted using [this file](https://github.com/maiabennett/gorilla_cortisol/blob/main/PERMANOVA/cortisol_permanova.R).
 
 ## License
